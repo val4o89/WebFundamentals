@@ -1,0 +1,3 @@
+ol { counter-reset: item }
+ul { counter-reset: item }
+span:after { content:" " counters(item, ".") " "; counter-increment: item }
