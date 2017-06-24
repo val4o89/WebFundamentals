@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/*#333 #384850 #ff7739 #91a5af*/
+
+body {
+    font-family: 14px "Open Sans", Arial, sans-serif;
+}
+
+main {
+        background-color: #91a5af;
+}
+
+main h1 {
+    
+}
+
+aside {
+    float: left;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+}
+
+aside div {
+    text-align: center;
+}
+
+aside div h2 {
+    font-size: 30px;
+}
+
+li {
+    margin: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+aside ul {
+    margin-top: 40px;
+}
+
+aside ul li i {
+    text-transform: uppercase;
+    color: #b1bfc6;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+aside img {
+    border-radius: 50%;
+    width: 50%;
+    margin: 0;
+}
+
+main {}

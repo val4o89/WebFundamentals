@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Room Reservation</title>
+    <link rel="stylesheet" href="./room-reservation.css">
+</head>
+
+<body>
+    <header>
+        <h1>room reservation</h1>
+    </header>
+    <main>
+        <section>
+            <h2>basic information</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin blandit nec
+                eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros nec commodo.</p>
+            <form class="search-form" action="get">
+                <label for="search">Search</label>
+                <input type="text" id="search">
+            </form>
+        </section>
+        <form action="get">
+            <div id="dashed-div">
+                <div id="personal-details">
+                    <h3>Personal Details</h3>
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="text" placeholder="Enter email">
+                </div>
+                <div id="request">
+                    <h3>Request a reservation</h3>
+                    <div id="room">
+                        <label for="room">Select a Room</label>
+                        <select name="room">
+                            <option value="">Room 1</option>
+                            <option value="">Room 2</option>
+                            <option value="">Room 3</option>
+                            <option value="">Room 4</option>                        
+                        </select>
+                    </div>
+                    <div id="count">
+                        <label for="count">Number of Rooms</label>
+                        <input type="text" placeholder="1">
+                    </div>
+                    <div id="in">
+                        <label for="in">Check-In</label>
+                        <input type="text" placeholder="dd/mm/yyyy">
+                    </div>
+                    <div id="out">
+                        <label for="in">Check-Out</label>
+                        <input type="text" placeholder="dd/mm/yyyy">
+                    </div>
+                </div>
+            </div>
+            <button>book now</button>
+        </form>
+    </main>
+</body>
+
+</html>

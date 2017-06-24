@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 13px Tahoma, Helvetica, sans-serif;
+    background-color: #cccccc;
+}
+
+h1 {
+    text-transform: capitalize;
+    display: inline-block;
+    margin-left: 30px;
+    color: lightseagreen;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+header {
+    background-color: lightslategray;
+    margin: 0 40px 15px 40px;
+    text-align: left;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px dashed black;
+}
+
+section {
+    margin: 0 40px 15px 40px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 15px;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+p {
+    width: 70%;
+    display: inline-block;
+}
+
+form.search-form {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+form.search-form label {
+    display: block;
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 900;
+}
+
+div#personal-details {
+    display: inline-block;
+    width: 49%;
+}
+
+div#request {
+    display: inline-block;
+    width: 47%;
+    vertical-align: top;
+}
+
+div#request input,
+div#request select  {
+    width: 97%;
+}
+
+div#personal-details input {
+    display: block;
+    margin: 10px 0;
+}
+
+div#dashed-div {
+    margin: 0 40px;
+    border-bottom: 1px dashed black;
+}
+
+
+
+div#request div {
+    display: inline-block;
+}
+
+
+
+div#request label, div#request input {
+    margin: 10px 0;
+    display: block;
+}
+
+#in {
+    width: 49%;
+}
+
+#out {
+    width: 49%;
+}
+
+#room {
+    width: 59%;
+}
+
+#count {
+    width: 39%;
+}
+
+button {
+    border-radius: 10px;
+    border-style: none;
+    background-color: dodgerblue;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 110px;
+    margin-top: 15px;
+    padding: 10px 25px;
+}
+
+button:hover {
+    background-color: seagreen;
+}
+

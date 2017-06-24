@@ -1,0 +1,10 @@
+header{
+    background: url("./images/header.jpg") no-repeat;
+    text-align: center;
+    height: 204px;
+}
+
+header h1 {
+    margin: auto;
+    color: #ffffff;
+}
