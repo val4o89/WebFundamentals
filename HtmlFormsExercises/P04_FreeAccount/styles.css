@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
 * {
     padding: 0;
     margin: 0;
@@ -27,6 +29,13 @@ h1 {
     font-size: 24px;
 }
 
+h2 {
+    margin: 30px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: left;
+}
+
 .sign-in, .log-in {
     display: inline-block;
     width: 48%;
@@ -35,6 +44,11 @@ h1 {
 input {
     display: block;
     margin: 0 30px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 275px;
+    position: relative;
 }
 
 a {
@@ -57,10 +71,40 @@ button:hover {
 
 span {
     display: inline-block;
-    margin: 0 30px;
+    margin: 0;
     word-wrap: break-word;
+    width: 290px;
 }
 
 .checkbox {
     display: inline-block;
+    margin-left: 30px;
+    margin-right: 5px;
+    padding: 0;
+    width: 20px;
+}
+
+.pass, .fail {
+    position: relative;
+}
+
+.pass::after,
+.fail::after {
+    font-family: FontAwesome;
+    font-size: 20px;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    color: white;
+    padding: 3px;
+}
+
+.fail::after {
+    content: '\f00d';
+    background-color: #FD0400;
+}
+
+.pass::after {
+    content: '\f00c';
+    background-color: #00FF01;
 }
