@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 60px;
+    line-height: 60px;
+    background-color: white;
+}
+
+nav ul li a {
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #595959;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid black;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+div#brand {
+    display: flex;
+    width: 20%;
+    height: 60px;
+    line-height: 60px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+div#brand img {
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 5px;
+}
+
+div#brand p {
+    display: inline-block;
+    font-weight: 900;
+    margin: 0 5px;
+}
+
+section {
+    position: relative;
+    display: flex;
+}
+
+section#main-section img {
+    width: 100%;
+    max-width: 100%;
+}
+
+header {
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    text-align: center;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px #afafaf;
+}
+
+header p {
+    text-shadow: 1px 1px #afafaf;
+    padding: 0 15px;
+}
+
+header button {
+    padding: 8px 30px;
+    text-transform: uppercase;
+    border-style: none;
+    margin: 30px 0;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+}
+
+header button:hover {
+    background-color: #2feac9;
+    cursor: pointer;
+}
+
+section.secondary-section {
+    width: 100%;
+    color: #fff;
+}
+
+section.secondary-section img {
+    width: 100%;
+    max-width: 100%;
+}
+
+section.secondary-section div {
+    width: 50%;
+    display: inline-block;
+}
+
+div.left-wrapper {
+    position: relative;
+    background-color: #2feac9;
+}
+
+div.right-wrapper {
+    position: relative;
+    background-color: black;
+}
+
+div.section-text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 30%;
+}
+
+div.section-text h2,
+div.section-text p {
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+section#categories {
+    background-color: #ebebeb;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+section#categories h3 {
+    text-transform: uppercase;
+    flex: 1 100%;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    margin: 15px 0;
+}
+
+section#categories img {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 50%;
+}
+
+section#categories span.product-title {
+    text-transform: uppercase;
+    font-size: 8px;
+    color: #2feac9;
+}
+
+section#categories span.quantity {
+    color: #828282;
+    text-transform: capitalize;
+}
+
+section#categories div {
+    display: flex;
+    width: 28%;
+    flex-direction: column;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+section#categories span {
+    margin-bottom: 10px;
+}
+
+div.left-wrapper.diff-back {
+    background: none;
+}
+ div.right-wrapper.diff-back {
+    background-color: deeppink;
+ }
