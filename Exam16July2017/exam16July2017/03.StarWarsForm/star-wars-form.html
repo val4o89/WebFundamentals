@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>StarWars Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <img src="./images/R2D2.png" alt="robot">
+    <main>
+        <header>
+            <h1>may the force be with <span>yo</span>u</h1>
+            <h2>Thanks for pre-ordering!</h2>
+        </header>
+        <div id="wrapper">
+            <form action="post">
+                <div class="radio-1">
+                    <label>
+                        <input type="radio" />
+                            <span>PayPal</span>
+                    </label>
+                    <img src="./images/PayPal.png" alt="pay pal">
+                </div>
+                <div class="radio-2">
+                    <label>
+                        <input type="radio" />
+                            <span>Debit/Credit Card</span>
+                    </label>
+                    <img src="./images/MasterCard.png" alt="master card">
+                </div>
+                <div id="card-number">
+                    <label>
+                        <span>Card Number</span>
+                        <input type="text" class="plh" placeholder="4111 1111 1111 1111">
+                    </label>
+                </div>
+                <div id="expiry">
+                    <label>
+                        <span>Expiry</span>
+                        <input type="text" class="plh" placeholder="MM/YY">
+                    </label>
+                </div>
+                <div id="csv">
+                    <label>
+                        <span>CSV</span>
+                        <input type="text" class="plh" placeholder="123">
+                        <i class="fa fa-info-circle"></i>
+                    </label>
+                </div>
+                <div id="pay">
+                    <a href="#"><i class="fa fa-lock"></i>Finish and Pay</a>
+                </div>
+            </form>
+            <p>That&apos;s <span>$19.99</span></p>
+        </div>
+    </main>
+</body>
+
+</html>
